@@ -1,0 +1,16 @@
+version: '3'
+services:
+  node:
+    build:
+      context: ./
+      dockerfile: ./.docker/images/node/Dockerfile
+    tty: true
+    volumes:
+      - ./:/var/www
+      - node_modules:/var/www/node_modules
+    env_file:
+      - ./.docker/dev/.env.dev
+
+volumes:
+  node_modules:
+    driver: local
