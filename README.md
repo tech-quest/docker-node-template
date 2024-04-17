@@ -20,7 +20,7 @@ Docker Desktop を起動することで Docker を利用した環境構築が行
 
 ### 1. 「docker-node-template」リポジトリをテンプレートとして、自身の Github にリポジトリを作成
 
-<img width="1497" alt="スクリーンショット 2022-10-05 17 24 52" src="https://user-images.githubusercontent.com/114050379/194016469-0ea8f7c0-a672-4103-a7a2-038922e3fa8f.png">
+<img src="./.docs/images/image1.png" alt="">
 
 ### 2. 作成した自身のリポジトリをローカルにcloneする
 
