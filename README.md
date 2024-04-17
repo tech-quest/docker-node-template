@@ -66,6 +66,8 @@ root@9962b6d42569:/var/www#
 root@9962b6d42569:/var/www# node --version
 ```
 
+`v20.12.2` という文言が表示されれば OK です！
+
 ## よくある質問
 
 ### Q. `docker compose exec node bash` を実行したらエラーが発生してしまいます。
