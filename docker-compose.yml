@@ -7,10 +7,5 @@ services:
     tty: true
     volumes:
       - ./:/var/www
-      - node_modules:/var/www/node_modules
     env_file:
       - ./.docker/dev/.env.dev
-
-volumes:
-  node_modules:
-    driver: local
