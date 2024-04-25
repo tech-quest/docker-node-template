@@ -9,3 +9,5 @@ services:
       - ./:/var/www
     env_file:
       - ./.docker/dev/.env.dev
+    ports:
+      - 3000:3000
